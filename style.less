@@ -1,0 +1,101 @@
+.meny{
+	margin: 0 auto;
+	max-width: 1250px;
+	.appetisers{
+		display: inline-block;
+		float: left;
+		margin: 100px 0 0 110px;
+		text-align: center;
+		width: 430px;
+	}
+	.starters{
+		display: inline-block;
+		float: right;
+		margin: 100px 110px 0 0;
+		text-align: center;
+		width: 430px;
+	}
+	.salads{
+		clear: left;
+		display: inline-block;
+		float: left;
+		margin: 20px 0 0 110px;
+		text-align: center;
+		width: 430px;
+	}
+	.main_dishes{
+		display: inline-block;
+		float: right;
+		margin: 20px 110px 0 0;
+		text-align: center;
+		width: 430px;
+	}
+	div{
+		h3{
+			display: inline-block;
+			color: #cc9900;
+			font-size: 36px;
+			font-family: 'Yeseva One', cursive;
+			font-weight: normal;
+			margin: 0 auto;
+		}
+		img{
+			color: #cc9900;
+			margin-top: 15px;
+			margin-bottom: 10px;
+		}
+		h4{
+			border-bottom: 1px solid rgba(200,159,45,0.5);
+			color: #cc9900;
+			display: inline-block;
+			font-size: 21px;
+			font-family: 'Yeseva One', cursive;
+			font-weight: normal;
+			text-align-last: justify;
+			padding-bottom: 10px;
+			padding-top: 15px;
+			width: 100%;
+		}
+		p{
+			color: #4c4c4c;
+			display: inline-block;
+			font-size: 16px;
+			font-family: 'Lato', sans-serif;
+			text-align: left;
+			margin-top: 12px;
+			margin-bottom: 20px;
+			width: 100%;
+		}
+		.specil{
+			border: 1px solid rgba(200,159,45,0.5);
+			margin-left: -10px;
+			padding: 0 10px 0 10px;
+		}
+	}
+}
+.meny{
+	.appetisers{
+		@media screen and (max-width: 1100px){
+		margin: 100px 0 0 50px;
+		width: 400px;
+		}
+	}
+	.starters{
+		@media screen and (max-width: 1100px){
+		margin: 100px 50px 0 0;
+		width: 400px;
+		}
+	}
+	.salads{
+		@media screen and (max-width: 1100px){
+		margin: 20px 0 0 50px;
+		width: 400px;
+		}
+	}
+	.main_dishes{
+		@media screen and (max-width: 1100px){
+		margin: 20px 50px 0 0;
+		width: 400px;
+		}
+	}
+}
